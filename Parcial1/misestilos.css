@@ -1,0 +1,40 @@
+.parrafo{
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: 500;
+    
+}
+div{
+    border: 2px solid rgb(65, 27, 202);
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 15px;
+}
+span ul li{
+    color: blue;
+    font-style: oblique;
+    font-weight: 700;
+    
+}
+#boton{
+    background-color: aquamarine;
+    border: none;
+    font-size: 30px;
+    width: 500px;
+    padding: 20px;
+    color: gray;
+}
+.texto{
+    color: black;
+}
+.link{
+    color: gray;
+}
+a:hover{
+    color: orange;
+}
