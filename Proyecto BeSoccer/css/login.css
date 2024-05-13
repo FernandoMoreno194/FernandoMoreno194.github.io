@@ -1,0 +1,16 @@
+.card{
+    margin-top: 100px;
+    margin-left: 430px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.form-control:hover{
+    border-color: lime;
+}
+
+.margin{
+    margin-left: 60px;
+}

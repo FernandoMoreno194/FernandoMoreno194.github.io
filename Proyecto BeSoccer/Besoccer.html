@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeSoccer | Todos los resultados de los partidos del futbol hoy</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/barra_superior.css">
+    <link rel="stylesheet" href="css/Privacy_Button.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+            <div class="container">
+                <a href="Besoccer.html">
+                    <img class="navbar-brand" src="images/Logo.png" alt="logo" width="150px" height="50px">
+                </a>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Partidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Competiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Equipos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                    <div class="ml-auto">
+                        <a href="login.html">
+                            <button class="btn btn-success">Entrar</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="fixed-bottom d-flex justify-content-end margin"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <button class="btn btn-primary">Privacidad</button>
+    </div>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Su privacidad es importante para nosotros</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Nosotros y nuestros socios almacenamos o accedemos a información en dispositivos,
+           tales como cookies, y procesamos datos personales, tales como identificadores únicos
+            e información estándar enviada por un dispositivo, para los propósitos descritos a continuación.
+            Puede hacer clic para otorgarnos su consentimiento a nosotros y a nuestros 1430 socios para que llevemos
+            a cabo el procesamiento con dichos propósitos.</p>
+      </div>
+    </div>
+    
+    
+    <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-around">
+                    <a href="">
+                      <img src="images/barca.jpg" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                        <img src="images/atlas.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/juventus.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/manchester.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/city.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/borussia.jpg" class="d-block" width="120px" height="100px" alt="...">
+                    </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-around">
+                    <a href="">
+                  <img src="images/america.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/chivvas.jpg" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/dorados.jpg" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/valencia.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/atlas.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a><a href="">
+                  <img src="images/cruz.png" class="d-block" width="120px" height="100px" alt="...">
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center" style="height: 40vh;">
+        <div class="card" style="width: 50rem;">
+          <div class="card-body">
+            <h5 class="card-title"><span><img src="images/ligamx.png" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>Liga MX</h5><hr>
+            <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+                <span class="text-start">Fin</span>
+                <span class="text-center">Jornada 10</span>
+                <span class="text-end">Star+</span>
+            </h6>
+            <h5 class="card-subtitle mb-2 text-muted text-center">
+              America <span><img src="images/america.png" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>
+              <span><strong>  2</strong> - <strong>2</strong></span>
+              <span><img src="images/chivvas.jpg" alt="Imagen 2" style="width: 30px; height: 30px;">Chivas</span>
+            </h5>
+          </div>
+      </div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center" style="height: 120px;">
+      <div class="card" style="width: 50rem;">
+        <div class="card-body">
+          <h5 class="card-title"><span><img src="images/ligamx.png" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>Liga MX</h5><hr>
+          <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+              <span class="text-start">Fin</span>
+              <span class="text-center">Jornada 9</span>
+              <span class="text-end">Sky</span>
+          </h6>
+          <h5 class="card-subtitle mb-2 text-muted text-center">
+            Dorados <span><img src="images/dorados.jpg" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>
+            <span><strong>  0</strong> - <strong>1</strong></span>
+            <span><img src="images/cruz.png" alt="Imagen 2" style="width: 55px; height: 55px;">Cruz Azul</span>
+          </h5>
+        </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center align-items-center" style="height: 250px;">
+    <div class="card" style="width: 50rem;">
+      <div class="card-body">
+        <h5 class="card-title"><span><img src="images/laliga.png" alt="Imagen 1" style="width: 50px; height: 50px;">  </span>LaLiga</h5><hr>
+        <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+            <span class="text-start">Fin</span>
+            <span class="text-center">Jornada 36</span>
+            <span class="text-end">Star+</span>
+        </h6>
+        <h5 class="card-subtitle mb-2 text-muted text-center">
+          Barcelona FC <span><img src="images/barca.jpg" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>
+          <span><strong>  2</strong> - <strong>3</strong></span>
+          <span><img src="images/realmadrid.png" alt="Imagen 2" style="width: 30px; height: 30px;">Real Madrid</span>
+        </h5>
+      </div>
+  </div>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 250px;">
+  <div class="card" style="width: 50rem;">
+    <div class="card-body">
+      <h5 class="card-title"><span><img src="images/bundesliga.png" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>Bundesliga</h5><hr>
+      <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+          <span class="text-start">Fin</span>
+          <span class="text-center">Jornada 23</span>
+          <span class="text-end">MAX</span>
+      </h6>
+      <h5 class="card-subtitle mb-2 text-muted text-center">
+        Borussia Dortmund <span><img src="images/borussia.jpg" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>
+        <span><strong>  2</strong> - <strong>1</strong></span>
+        <span><img src="images/city.png" alt="Imagen 2" style="width: 30px; height: 30px;">Manchester City</span>
+      </h5>
+    </div>
+</div>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center" style="height: 250px;">
+  <div class="card" style="width: 50rem;">
+    <div class="card-body">
+      <h5 class="card-title"><span><img src="images/laliga.png" alt="Imagen 1" style="width: 50px; height: 50px;">  </span>LaLiga</h5><hr>
+      <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-between align-items-center">
+          <span class="text-start">Fin</span>
+          <span class="text-center">Jornada 20</span>
+          <span class="text-end">HBO</span>
+      </h6>
+      <h5 class="card-subtitle mb-2 text-muted text-center">
+        Manchester United <span><img src="images/manchester.png" alt="Imagen 1" style="width: 30px; height: 30px;">  </span>
+        <span><strong>  3</strong> - <strong>1</strong></span>
+        <span><img src="images/juventus.png" alt="Imagen 2" style="width: 30px; height: 30px;">Juventus</span>
+      </h5>
+    </div>
+</div>
+</div>
+
+  <footer class="d-flex justify-content-center">
+
+    <nav aria-label="...">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+        <li class="page-item" aria-current="page">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
