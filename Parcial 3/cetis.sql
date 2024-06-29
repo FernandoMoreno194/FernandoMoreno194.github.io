@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: May 21, 2024 at 03:39 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 21-05-2024 a las 03:40:04
+-- Versión del servidor: 10.1.39-MariaDB
+-- Versión de PHP: 7.3.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cetis`
+-- Base de datos: `cetis`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `alumnos`
+-- Estructura de tabla para la tabla `alumnos`
 --
 
 CREATE TABLE `alumnos` (
@@ -32,67 +33,59 @@ CREATE TABLE `alumnos` (
   `nombre` varchar(100) NOT NULL,
   `edad` int(11) NOT NULL,
   `grupo` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `alumnos`
+-- Volcado de datos para la tabla `alumnos`
 --
 
 INSERT INTO `alumnos` (`id`, `nombre`, `edad`, `grupo`) VALUES
-(1, 'María Jacobo Bojórquez', 16, '4AVP'),
-(2, 'Avril Moreno Treviño', 16, '4AVP');
+(1, 'javier', 16, '4AVP'),
+(2, 'larissa', 21, '6AVP');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `empldeados`
+-- Estructura de tabla para la tabla `empleados`
 --
 
-CREATE TABLE `empldeados` (
+CREATE TABLE `empleados` (
   `id` int(11) NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `especialidad` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `empldeados`
---
-
-INSERT INTO `empldeados` (`id`, `nombre`, `especialidad`) VALUES
-(1, 'Francisco Rochin', 'Programación'),
-(2, 'Mario Camacho', 'Cálculo Diferencial');
-
---
--- Indexes for dumped tables
+-- Índices para tablas volcadas
 --
 
 --
--- Indexes for table `alumnos`
+-- Indices de la tabla `alumnos`
 --
 ALTER TABLE `alumnos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `empldeados`
+-- Indices de la tabla `empleados`
 --
-ALTER TABLE `empldeados`
+ALTER TABLE `empleados`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT for table `alumnos`
+-- AUTO_INCREMENT de la tabla `alumnos`
 --
 ALTER TABLE `alumnos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT for table `empldeados`
+-- AUTO_INCREMENT de la tabla `empleados`
 --
-ALTER TABLE `empldeados`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+ALTER TABLE `empleados`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
